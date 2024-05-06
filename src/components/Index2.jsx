@@ -3,11 +3,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
-import Home from "./components/Home";
-import About from "./components/About";
-import Project from "./components/Project";
-import Experience from "./components/Experience";
-const App = () => {
+import Home from "./Home";
+import About from "./About";
+import Project from "./Project";
+import Experience from "./Experience";
+const Index2 = () => {
   const aboutRef = useRef();
   const projectRef = useRef();
   const experienceRef = useRef();
@@ -131,4 +131,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Index2;
